@@ -1,0 +1,22 @@
+#box{
+    background-color: aqua;
+    width: 30%;
+    padding: 40px;
+
+
+    max-height: 300px;
+    overflow: hidden;
+
+    /*set transition up.*/
+    -webkit-transition: max-height 0.7s;
+    -moz-transition:max-height 0.7s;
+    transition:max-height 0.7s;
+}
+#box.open{
+    height: 200px;
+
+     /*set transition up.*/
+     -webkit-transition: max-height 0.7s;
+     -moz-transition:max-height 0.7s;
+     transition:max-height 0.7s;
+}
